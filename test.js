@@ -13,3 +13,7 @@ const getPlayerHead = async (username) => {
     img3.src = `https://crafatar.com/renders/body/${UUID}`
     img4.src = `https://crafatar.com/skins/${UUID}`
 }
+const btn = document.querySelector("#click2");
+btn.addEventListener("click", () => {
+    getPlayerHead("GGXGang")
+})
